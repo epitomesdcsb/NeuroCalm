@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">NeuroCalm</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="blank_space">next</string>
+    <string name="Get_started">Get Started</string>
+    <string name="self_assesments">Assesments</string>
+    <string name="Chat_bot">ChatBot</string>
+    <string name="Counceling">Councelling</string>
+    <string name="action_settings">Settings</string>
+    <string name="nav_open">Open Navigation Drawer</string>
+    <string name="nav_close">Close Navigation Drawer</string>
+    <string name="menu_home">Set Mood</string>
+    <string name="menu_gallery">Chat With Ai</string>
+    <string name="menu_slideshow">Connect With a Therapist</string>
+    <string name="menu_shop">Shop Online Products</string>
+<string name="notification">Notifications</string>
+    <string name="toolbar_title">Mood Manager</string>
+    <string name="mood_prompt">What\'s your mood today?</string>
+    <string name="quote_default">Stay happy and positive!</string>
+    <string name="app_usage_title">Your App Usage</string>
+    <string name="most_used_app">Most Used App: Loading</string>
+    <string name="app_usage_suggestion">Try avoiding this app for better focus!</string>
+    <string name="wearable_data_title">Wearable Data Input</string>
+    <string name="sleep_input_hint">Enter sleep hours</string>
+    <string name="submit_button">Start Now</string>
+    <string name="open_drawer">open_menu</string>
+    <string name="antistress_game_text">Anti-Stress Games</string>
+    <string name="play_now_button">Play Now</string>
+    <string name="Submit_your_mood">Submit Today\'s Mood</string>
+    <string name="Mood_Calender">Monthly mood Tracker</string>
+    <string name="Werable_instructions">Enter your werable data </string>
+    <string name="ChatAi">Chat With AI</string>
+    <string name="Chatbtn">Chat Now</string>
+    <string name="Chatdescription">Having no clue whom to share.?Chat with NeuroCalm</string>
+
+</resources>

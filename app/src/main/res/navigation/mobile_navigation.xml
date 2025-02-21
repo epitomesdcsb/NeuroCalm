@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.deepbot.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_werableDataFragment"
+            app:destination="@id/werableDataFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.deepbot.ui.gallery.GalleyFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.deepbot.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.deepbot.ui.home.HomeFragment"
+        android:label="HomeFragment">
+
+        <!-- Navigation Action to GamesFragment -->
+        <action
+            android:id="@+id/action_homeFragment_to_gamesFragment"
+            app:destination="@id/gamesFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_surveyFragment"
+            app:destination="@id/surveyFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_werableDataFragment"
+            app:destination="@id/werableDataFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/gamesFragment"
+        android:name="com.example.deepbot.ui.games.GameFragment"
+        android:label="GamesFragment" />
+
+    <fragment
+        android:id="@+id/shopFragmentFragment"
+        android:name="com.example.deepbot.ui.shop.ShopFragment"
+        android:label="ShopFragmentFragment" />
+    <fragment
+        android:id="@+id/surveyFragment"
+        android:name="com.example.deepbot.ui.survey.SurveyFragment"
+        android:label="SurveyFragment" />
+    <fragment
+        android:id="@+id/werableDataFragment"
+        android:name="com.example.deepbot.ui.werabledata.WerableDataFragment"
+        android:label="WerableDataFragment" />
+    <fragment
+        android:id="@+id/nav_calender"
+        android:name="com.example.deepbot.ui.calender.CalenderFragment"
+        android:label="CalenderFragment" />
+    <activity
+        android:id="@+id/splashScreenActivity"
+        android:name="com.example.deepbot.ui.splash.SplashScreenActivity"
+        android:label="SplashScreenActivity" />
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.example.deepbot.ui.splash.WelcomeFragment"
+        android:label="WelcomeFragment" >
+        <action
+            android:id="@+id/action_welcomeFragment_to_splashScreenActivity"
+            app:destination="@id/splashScreenActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/notificationFragment"
+        android:name="com.example.deepbot.ui.notification.NotificationFragment"
+        android:label="NotificationFragment" />
+</navigation>
